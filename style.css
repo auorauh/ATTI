@@ -8,15 +8,24 @@ body {
   }
   .nav {
     display: flex;
-    height: 3em;
+    height: 5em;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     background-color: gray;
   }
+  .center {
+    display: flex;
+    justify-content: center;
+  }
   .icon {
     height: 3.2em;
     width: auto;
+    margin-left: 1em;
+  }
+  .logo {
+    height: auto;
+    width: 20%;
   }
   img {
     max-width: 100%;
@@ -82,4 +91,14 @@ body {
     display: flex;
     justify-content: flex-end;
   }
-  
+  @media screen and (max-width: 800px) { 
+    .bios {
+      flex-direction: column;
+    }
+    .icon {
+      display: none;
+    }
+    .logo {
+      width: 100%;
+    }
+  }
