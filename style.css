@@ -38,6 +38,10 @@ body {
     padding-right: 2em;
     color: white;
   }
+  #yt {
+    width: auto;
+    height: 50px;
+  }
   a,
   a:visited,
   a:hover,
